@@ -1,3 +1,12 @@
-export default function Page() {
-  return <div className="space-y-4 p-6"></div>;
-}
+import React from "react";
+import HeroBanner from "@/components/pages/home/banner/HeroBanner";
+
+const HomePage = () => {
+  return (
+    <div>
+      <HeroBanner />
+    </div>
+  );
+};
+
+export default HomePage;
